@@ -1,0 +1,94 @@
+body {
+  width: 1440px;
+  background-color: hsl(30, 54%, 90%);
+  /* Font size: 16px; */
+
+  font-family: "Arial", sans-serif;
+  background-color: #f3e4d8;
+  margin: 0;
+  /* padding: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  max-width: 900px; /* Оптимально для ширины экрана 1440px */
+  margin: 0 auto; /* Центрирование */
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+img {
+  width: 100%; /* Ширина на всю карточку */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border-radius: 12px; /* Лёгкое скругление углов */
+}
+
+h2,
+h3 {
+  color: hsl(14, 45%, 36%);
+  text-align: left;
+}
+
+.preparation-time {
+  border-radius: 20px;
+  background-color: hsl(330, 100%, 98%);
+  padding: 16px 20px;
+}
+
+.main-container {
+  margin: 24px;
+}
+
+.lishki {
+  padding: 8px;
+}
+/* .preparation-ul {
+  padding: 12px;
+} */
+.pershyi {
+  padding: 8px;
+}
+
+.nutrition-card {
+  background-color: #fff;
+  padding: 30px;
+  /* border-radius: 20px; */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #743b1e;
+}
+
+.value {
+  font-weight: bold;
+  text-align: right;
+}
+
+td {
+  padding: 12px 0;
+  font-size: 18px;
+}
+
+tr:not(:last-child) td {
+  border-bottom: 1px solid #ddd;
+}
+
+h1,
+h2,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
